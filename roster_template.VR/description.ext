@@ -1,0 +1,30 @@
+/* Mission information */
+class Header
+{
+	gameType   =  COOP; // Game type
+	minPlayers =  1;    // minimum number of players the mission supports
+	maxPlayers = 4;	// maximum number of players the mission supports
+};
+
+/* onLoadName */
+author			= "D.Anderson";
+OnLoadName		= "Roster - Template Mission";
+OnLoadMission	= "OnLoadMissionText";
+//loadScreen		= "resources\loadScreen.paa";
+
+/* respawn */
+respawn = 3; /* 0 - NONE # 1 - BIRD # 3 - BASE # 4 - GROUP # 5 - SIDE */
+respawnOnStart = -1; 
+respawnDelay = 10;
+respawnTemplates[] = {"ace_spectator","Counter","Wave"};
+
+
+/* Mission Settings */
+saving = 0; 
+aiKills = 0;
+disabledAI = 0;
+enableDebugConsole = 1;
+
+
+// this one is needed
+#include "functions\CfgFunctions.hpp"
