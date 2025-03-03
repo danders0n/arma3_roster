@@ -26,7 +26,7 @@ if (primaryWeapon _unit != "") then {
 
 	_primaryWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Primary Weapon: ',
+		'Broń główna: ',
 		'</font>',
 		getText(configFile >> "CfgWeapons" >> primaryWeapon _unit >> "displayName"),
 		'<br/>'

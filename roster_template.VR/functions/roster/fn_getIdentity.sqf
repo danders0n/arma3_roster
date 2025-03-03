@@ -1,6 +1,6 @@
 /*
  *	Author: D.Anderson
- *	Gets hangun weapon and any attachment of unit, gets its name and image and crates string with HTML image compatible with diary records
+ *	Daj dlugopis to napisze opis
  *	
  *	Arguments:
  *	0: The Unit <OBJECT>

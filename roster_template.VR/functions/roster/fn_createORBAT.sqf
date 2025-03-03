@@ -23,8 +23,8 @@ private  _arr = [];
 //get number of connceted players
 private _str = [
 	'<font face="RobotoCondensedBold" color="#cba030">',
-	'Players: </font>',
-	(side _unit)countSide allPlayers, // connceted player to side, don't count Zeuses, I think...
+	'Gracze: </font>',
+	((side _unit) countSide playableUnits), // connceted player to side, don't count Zeuses, I think...
 	'/',
 	playableSlotsNumber side _unit, // all playable slots, I think...
 	'<br/><br/>'

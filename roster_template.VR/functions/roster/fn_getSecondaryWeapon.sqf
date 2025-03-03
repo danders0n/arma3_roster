@@ -26,7 +26,7 @@ if (secondaryWeapon _unit != "") then {
 
 	_secondaryWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Secodary Weapon: ',
+		'Broń dodatkowa: ',
 		'</font>',
 		getText(configFile >> "CfgWeapons" >> secondaryWeapon _unit >> "displayName"),
 		'<br/>'

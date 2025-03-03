@@ -26,7 +26,7 @@ if (handgunWeapon _unit != "") then {
 
 	_handgunWeaponArr pushBack ([
 		'<font color="#757575" face="RobotoCondensed">',
-		'Handgun Weapon: ',
+		'Broń boczna: ',
 		'</font>',
 		getText(configFile >> "CfgWeapons" >> handgunWeapon _unit >> "displayName"),
 		'<br/>'
